@@ -10,9 +10,11 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            BackgroundView(imageName: "backgroundColor")
-            JoyStickView()
+        GeometryReader { geometry in
+            ZStack {
+                BackgroundView(imageName: "backgroundColor")
+                JoyStickView()
+            }
         }
         
     }

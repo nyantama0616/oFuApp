@@ -18,6 +18,7 @@
 		1776C6D3278725FB00A7C35B /* oFuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C6D2278725FB00A7C35B /* oFuUITestsLaunchTests.swift */; };
 		1776C6E12787266B00A7C35B /* JoyStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C6E02787266B00A7C35B /* JoyStickView.swift */; };
 		1776C6E42787300200A7C35B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C6E32787300200A7C35B /* BackgroundView.swift */; };
+		1776C6E827884ABA00A7C35B /* StickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C6E727884ABA00A7C35B /* StickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1776C6E02787266B00A7C35B /* JoyStickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickView.swift; sourceTree = "<group>"; };
 		1776C6E2278728FF00A7C35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1776C6E32787300200A7C35B /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		1776C6E727884ABA00A7C35B /* StickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				1776C6E02787266B00A7C35B /* JoyStickView.swift */,
+				1776C6E727884ABA00A7C35B /* StickView.swift */,
 			);
 			path = JoyStick;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				1776C6BA278725FB00A7C35B /* Persistence.swift in Sources */,
 				1776C6E12787266B00A7C35B /* JoyStickView.swift in Sources */,
 				1776C6E42787300200A7C35B /* BackgroundView.swift in Sources */,
+				1776C6E827884ABA00A7C35B /* StickView.swift in Sources */,
 				1776C6B3278725FA00A7C35B /* ContentView.swift in Sources */,
 				1776C6BD278725FB00A7C35B /* oFu.xcdatamodeld in Sources */,
 				1776C6B1278725FA00A7C35B /* oFuApp.swift in Sources */,
