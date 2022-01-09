@@ -1,8 +1,19 @@
 import SwiftUI
 
 struct JoyStickView: View {
+    let circleSize: CGFloat = 300
+    let stickSize: CGFloat = 80
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            
+                ZStack {
+                    Image("joyStickCircle")
+                        .resizable()
+                        .frame(width: circleSize, height: circleSize)
+                    StickView(size: stickSize)
+                }
+        }
     }
 }
 
