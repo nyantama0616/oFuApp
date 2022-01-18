@@ -6,7 +6,6 @@ struct JoyStickView: View {
     var body: some View {
         VStack {
             Spacer()
-            
                 ZStack {
                     Image("joyStickCircle")
                         .resizable()
