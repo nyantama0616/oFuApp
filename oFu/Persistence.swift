@@ -1,10 +1,3 @@
-//
-//  Persistence.swift
-//  oFu
-//
-//  Created by Ryoma Nakakita on 2022/01/06.
-//
-
 import CoreData
 
 struct PersistenceController {

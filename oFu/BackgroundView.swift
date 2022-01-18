@@ -1,10 +1,3 @@
-//
-//  SwiftUIView.swift
-//  oFu
-//
-//  Created by Ryoma Nakakita on 2022/01/06.
-//
-
 import SwiftUI
 
 struct BackgroundView: View {

@@ -15,6 +15,8 @@ struct oFuApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(DebugData())
+                .environmentObject(BLEData())
         }
     }
 }
